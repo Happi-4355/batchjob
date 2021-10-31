@@ -36,6 +36,18 @@
 							<artifactId>mysql-connector-java</artifactId>
 						</sharedLibrary>
 					</sharedLibraries>
+					
+                      <cloudHubDeployment>
+				      <uri>https://anypoint.mulesoft.com</uri>
+				      <username>happi_4355</username>
+				      <password>Happiv@4355</password>
+				      <environment>DEV</environment>
+				      <applicationName>async-cloud</applicationName>
+				      <muleVersion>4.3.0</muleVersion>
+				      <workers>1</workers>
+				      <workerType>MICRO</workerType>
+				      <objectStoreV2>true</objectStoreV2>
+				     </cloudHubDeployment>
 					<classifier>mule-application</classifier>
 				</configuration>
 			</plugin>
